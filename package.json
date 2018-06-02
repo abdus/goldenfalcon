@@ -1,0 +1,29 @@
+{
+  "name": "goldenfalcon",
+  "version": "1.0.6",
+  "description": "",
+  "main": "cli.js",
+  "bin": {
+    "goldenfalcon": "cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon test.js"
+  },
+  "author": "abdus",
+  "license": "MIT",
+  "dependencies": {
+    "caporal": "^0.10.0",
+    "chalk": "^2.4.1",
+    "cryptr": "^3.0.0",
+    "figlet": "^1.2.0",
+    "nodemailer": "^4.6.5",
+    "prompts": "^0.1.8",
+    "supports-color": "^5.4.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "CLI",
+    "app"
+  ]
+}
