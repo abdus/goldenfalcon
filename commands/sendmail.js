@@ -80,12 +80,14 @@ module.exports = async () => {
     
     
     let response = await prompt(questions)
-    response.attachments = [{filename: ''},{path: ''}];
-    response.attachments[0].filename = response.attachment.split('/').pop();
-    response.attachments[0].path = response.attachment;
+    if (response.attachment != '') {
+        response.attachments = [{filename: '', path: ''}];
+        response.attachments[0].filename = response.attachment.split('/').pop();
+        response.attachments[0].path = response.attachment;
+    }
 
     if (response.emailSend == 'send') {
-        console.log(chalk.green('Trying to send the email...'))
+        console.log(chalk.yellow('Trying to send the email...'))
         sendEmail(response);
     } else {
         console.log(chalk.red('App exited with response code 1. No Email sent.'))

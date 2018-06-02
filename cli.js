@@ -51,7 +51,7 @@ prog
         sendmail();
     } else {
         console.log(`
-        ${chalk.bold.italic('Setup your Email Account')}
+        ${chalk.bold('Looks like you didn\'t setup your email account yet')}
         `)
         emailSetup();
     }
