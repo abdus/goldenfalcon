@@ -1,7 +1,7 @@
 {
   "name": "goldenfalcon",
-  "version": "1.0.6",
-  "description": "",
+  "version": "1.0.8",
+  "description": "## A CLI app built using Node JS",
   "main": "cli.js",
   "bin": {
     "goldenfalcon": "cli.js"
@@ -25,5 +25,13 @@
   "keywords": [
     "CLI",
     "app"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisabdus/goldenfalcon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thisisabdus/goldenfalcon/issues"
+  },
+  "homepage": "https://github.com/thisisabdus/goldenfalcon#readme"
 }
