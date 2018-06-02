@@ -80,6 +80,9 @@ module.exports = async () => {
     
     
     let response = await prompt(questions)
+    let formatedSTR = response.text;
+    let enterKey = String.fromCharCode(10);
+    response.text = formatedSTR.replace('-n', enterKey);
     if (response.attachment != '') {
         response.attachments = [{filename: '', path: ''}];
         response.attachments[0].filename = response.attachment.split('/').pop();

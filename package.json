@@ -1,6 +1,6 @@
 {
   "name": "goldenfalcon",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "## A CLI app built using Node JS",
   "main": "cli.js",
   "bin": {
