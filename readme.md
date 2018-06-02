@@ -4,11 +4,19 @@
 
 ## Instructions
 
+### Install
+
+```bash
+
+user@host$ npm install -g goldenfalcon
+
+```
+
 ### To send mail
 
 ```bash
 
-user@hp$ goldenfalcon send
+user@host$ goldenfalcon send
 
 ```
 
@@ -16,7 +24,7 @@ user@hp$ goldenfalcon send
 
 ```bash
 
-user@hp$ goldenfalcon setup
+user@host$ goldenfalcon setup
 
 ```
 
