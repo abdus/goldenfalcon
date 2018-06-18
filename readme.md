@@ -16,7 +16,7 @@ user@host$ npm install -g goldenfalcon
 
 ```bash
 
-user@host$ goldenfalcon send
+user@host$ falcon send
 
 ```
 
