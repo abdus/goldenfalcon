@@ -1,6 +1,6 @@
 # Golden Falcon
 
-## A CLI app built using Node JS
+### A CLI app for sending email built using Node JS
 
 ## Instructions
 
@@ -24,7 +24,7 @@ user@host$ falcon send
 
 ```bash
 
-user@host$ goldenfalcon setup
+user@host$ falcon setup
 
 ```
 
